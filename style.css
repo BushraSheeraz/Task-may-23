@@ -1,0 +1,225 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+body{
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    width: 230px;
+    background: #3f0e40;
+}
+#navbar .tk-2019{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    color: rgb(178,159,179);
+    font-family: Helvetica, sans-serif;
+}
+.tk-2019 > div{
+    display: flex;
+    justify-content: space-between;
+}
+#btn{
+    height: 55px;
+}
+#jump-btn{
+    width: 200px;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 8px 16px;
+    margin:5px 10px 0px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:  #260027; 
+    color: rgb(178,159,179);
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+#jump-btn span{
+    display: none;
+}
+#jump-btn:hover span{
+    display: inline-block;
+}
+#navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#navbar li{
+    color: rgb(178,159,179);
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 12px;
+}
+#navbar li:hover{
+    background-color: rgb(38,0,39);
+}
+#navbar li h4:hover{
+    color: white;
+}
+/* ul li{
+    list-style-type: none;
+}
+li i .fas .fa-heart{
+    color: rgb(10, 151, 10);
+} */
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 83%;
+}
+
+#container header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 5px 14px;
+    font-family:  Helvetica, sans-serif;
+}
+header .attendance{
+    display: flex;
+    flex-direction: column;
+}
+.attendance h2{
+    font-size: 20px;
+    margin: 10px 0 8px 0;
+}
+#container .side span{
+    color: rgb(128, 124, 124);
+    border-right: 1px solid #656465;
+    padding: 0 5px;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.side span:last-child{
+    border-right: 0px;
+}
+.side span:hover{
+    cursor: pointer;
+}
+.side span:first-child:hover{
+    color: rgb(252, 227, 0);
+}
+.side span:nth-child(2):hover , .side span:nth-child(3):hover{
+    color: #1164a3;
+}
+
+header .corner{
+    display: flex;
+    align-items: center;
+} 
+.corner span{
+    margin: 6px;
+    font-size: 18px;
+    color: rgb(128, 124, 124);
+}
+.corner span:hover{
+    cursor: pointer;
+}
+.corner span:nth-child(2):hover , .corner  span:nth-child(3):hover{
+    color: #1164a3;
+}
+.corner button:hover , .corner button:hover i{
+    color: #1164a3;
+    cursor: pointer;
+}
+.corner span:nth-child(5):hover{
+    color: red;
+}
+.corner span:nth-child(6):hover{
+    color: rgb(252, 227, 0);
+}
+header button{
+    padding: 8px 10px 8px 10em;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+}
+.details{
+    position: relative;
+    z-index: 999;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(189, 188, 188);
+    border-left: none;
+    border-right: none;
+    border-bottom: none; 
+    font-size: 20px;
+    margin-top: 1em;
+}
+footer {
+    display: flex;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+footer input {
+    background: #fff;
+    border: 2px solid #a3a2a2 ;
+    color: #a3a2a2;
+    font-size: 15px;
+    border-right: 0px;
+    padding-left: 8px;
+    height: 44px;
+    width: 70%;
+    /* border-radius: 5px; */
+}
+footer button:first-child{
+    background: transparent;
+    border: 2px solid #a3a2a2;
+    color: #a3a2a2;
+    height: 50px;
+    width: 50px;
+    border-right: 0px;
+    border-radius: 5px 0 0 5px;
+}
+footer button:last-child{
+    background: transparent;
+    border: 2px solid #a3a2a2;
+    color: #a3a2a2;
+    height: 50px;
+    width: 50px;
+    border-left: 0px;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+}
+/* footer {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+input{
+    display: inline-block;
+    border: 1px solid grey;
+    padding-right: 5em;
+} */
