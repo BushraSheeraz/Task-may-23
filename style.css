@@ -14,7 +14,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: static;
     top: 0;
     right: 0;
     bottom: 0;
@@ -211,6 +210,16 @@ header button{
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    border-radius: 5px;  
 }
 .details img{
     width: 60px;
