@@ -294,6 +294,9 @@ footer input {
     height: 44px;
     width: 85%;
 }
+footer input:focus{
+    outline: none;
+}
 footer button:first-child{
     background: transparent;
     border: 2px solid #a3a2a2;
