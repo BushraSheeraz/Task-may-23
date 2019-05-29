@@ -110,6 +110,9 @@ main{
     font-size: 12px;
     color: #968e8e;
 }
+#dm li:nth-child(2) i , #dm li:nth-child(3) i{
+    color: rgb(43,172,118)!important;
+}
 #navbar .nav-ch{
     overflow-y: scroll;
 }
@@ -285,6 +288,10 @@ footer button:first-child{
     width: 50px;
     border-right: 0px;
     border-radius: 5px 0 0 5px;
+}
+footer button:first-child:hover{
+    background-color: rgb(43,172,118);
+    color: white;
 }
 footer button:last-child{
     background: transparent;
