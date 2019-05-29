@@ -80,6 +80,9 @@ main{
 #jump-btn:hover span{
     display: inline-block;
 }
+#jump-btn:focus{
+    outline: none;
+}
 #navbar ul{
     list-style: none;
     margin: 0;
@@ -199,11 +202,22 @@ header .corner{
 .corner span:nth-child(6):hover{
     color: rgb(252, 227, 0);
 }
-header button{
-    padding: 8px 10em 8px 10px;
-    background: transparent;
-    border: 1px solid grey;
-    border-radius: 5px;
+header .input-icons i { 
+    position: absolute; 
+    padding: 10px 5px; 
+} 
+.icon { 
+    padding: 10px; 
+    color: rgb(128, 124, 124); 
+    
+} 
+header .input-field { 
+    padding: 10px 20px;
+    border: 1px solid rgb(128, 124, 124);
+    border-radius: 5px; 
+} 
+header input:focus{
+    outline: none;
     
 }
 .details{
