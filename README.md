@@ -1,6 +1,6 @@
 # Mockups May 23 - May 30
 
-Published link:  https://bushrasheeraz.github.io/task-may-23/
+Published link:  https://bushrasheeraz.github.io/slack-clone/
 
 Check the mockups folder and create a pixel perfect clone! 
 
